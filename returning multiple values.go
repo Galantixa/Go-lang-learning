@@ -7,8 +7,11 @@ func getFullName() (string, string) {
 
 }
 
-func main5() {
+func main() {
 	// underscore untuk mengignore variable
-	firstName, _ := getFullName()
-	fmt.Println("Hallo", firstName)
+	// firtName, _ := getFullName()
+	_, lastName := getFullName()
+
+	//fmt.Println("Hallo ", firstName)
+	fmt.Println("Hallo ", lastName)
 }

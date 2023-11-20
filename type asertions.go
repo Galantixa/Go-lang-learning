@@ -1,17 +1,16 @@
-// ? type asertions merupakan kemampuan merubah tipe data menjadi tipe data yang di inginkan 
+// type asertions merupakan kemampuan merubah tipe data menjadi tipe data yang di inginkan
 // fitur ini sering sekali digunakan ketika kita bertemu dengn dara interface kosong
 
 package main
 
 import "fmt"
 
-
 func ramdom() interface{} {
-	return "true"
+	return 1000
 }
 
-func main21() {
-	var result interface{} = ramdom()
+func main() {
+	result := ramdom()
 	// var resultString string = result.(string)
 	// fmt.Println(resultString)
 
@@ -19,9 +18,9 @@ func main21() {
 	switch value := result.(type) {
 	case string:
 		fmt.Println("Value", value, "is string")
-	case int: 
+	case int:
 		fmt.Println("Value", value, "is int")
 	default:
 		fmt.Println("Unknown type")
 	}
-} 
+}

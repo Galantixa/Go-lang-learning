@@ -20,7 +20,7 @@ func runApp(error bool) {
 	fmt.Println("App berjalan")
 }
 
-func main15() {
+func main() {
 	runApp(true) // true = panic
 
 }

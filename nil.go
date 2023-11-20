@@ -13,7 +13,7 @@ func NewMap(name string) map[string]string {
 	}
 }
 
-func mai19() {
-	person := NewMap("Fajar")
+func main() {
+	person := NewMap("Galantixa")
 	fmt.Println(person)
 }

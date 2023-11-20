@@ -1,5 +1,4 @@
 // go lang bukan bahasa tipe orientasi object
-
 package main
 
 import "fmt"
@@ -7,14 +6,14 @@ import "fmt"
 func Ups(i int) interface{} {
 	if i == 1 {
 		return 1
-	}else if i == 2 {
+	} else if i == 2 {
 		return true
-	}else {
+	} else {
 		return "UUps"
 	}
-} 
+}
 
-func main19() {
-	var data interface{} = Ups(4)
+func main() {
+	var data interface{} = Ups(4) // output Upps
 	fmt.Println(data)
 }

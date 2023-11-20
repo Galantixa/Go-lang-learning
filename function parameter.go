@@ -2,11 +2,10 @@ package main
 
 import "fmt"
 
-func sayHi(namaDepan string, namaBelakang string) {
-	fmt.Println("hello", namaDepan, namaBelakang)
-
+func sayHi(firtsName string, lastName string) {
+	fmt.Println("Hallo nama saya ", firtsName, lastName)
 }
-func main2() {
+func main() {
 	sayHi("Fajar", "Nugraha")
-	sayHi("Budi", "Nugroho")
+	sayHi("Galantixa", "Nugraha")
 }

@@ -1,9 +1,9 @@
-// ? Pass by value
+// Pass by value
 // secara default semua var itu dipassing by value, bukan reference
 // artinya, jika kita mengirim sebuah variable ke dalam function, method atau variable lain
 // sebenarnaya yang dikirim adalah duplikasi value nya
 
-// ? Pointer
+// Pointer
 // pointer adalah kemampuan membuat reference ke lokasi data di memory yang sama tanpa
 // menduplikasi data yang sudah ada
 

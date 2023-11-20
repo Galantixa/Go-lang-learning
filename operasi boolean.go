@@ -1,13 +1,13 @@
-/*
-&& ==> dan
-|| ==> atau
-!  ==> kebalikan
-*/
+//
+//	&& ==> dan
+//	|| ==> atau
+//	 !  ==> kebalikan
+
 package main
 
 import "fmt"
 
-func booll() {
+func main() {
 	var nilaiAkhir = 98
 	var absensi = 88
 

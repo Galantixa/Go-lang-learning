@@ -2,26 +2,25 @@ package main
 
 import "fmt"
 
-func swithc() {
-	name := "Ono"
+func main() {
+	name := "Eko"
 
 	switch name {
-	case "Fajar" :
-		fmt.Println("Hello, Fajar")
-	case "Joko" :
-		fmt.Println("Hello, Joko")
+	case "Fajar":
+		fmt.Println("Halo Fajar")
+	case "Galan":
+		fmt.Println("Hallo Galan")
 	default:
-		fmt.Println("Kenalan donkk")
+		fmt.Println("Kenalan Donk!")
 	}
-	
-	// switch dengan short statement 
+
+	// switch dengan short statement
 
 	switch length := len(name); length > 5 {
-	case true :
+	case true:
 		fmt.Println("Nama terlalu panjang")
-	case false :
+	case false:
 		fmt.Println("Nama sudah benar")
-
 	}
 
 	// switch length := len(name); length > 5 {
@@ -40,4 +39,4 @@ func swithc() {
 	default:
 		fmt.Println("Nama sudah benar")
 	}
-}	
+}

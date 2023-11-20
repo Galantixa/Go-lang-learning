@@ -1,17 +1,17 @@
 package main
 
-import "fmt" 
+import "fmt"
 
-func factorialRecursive (value int)int {
+// function yang memanggil function dirinya sendiri
+func factorialRecursive(value int) int {
 	if value == 1 {
 		return 1
-	}else {
+	} else {
 		return value * factorialRecursive(value-1)
 	}
 }
 
-func main11() {
+func main() {
 	recursive := factorialRecursive(5)
 	fmt.Println(recursive)
 }
-

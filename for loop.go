@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func forlop() {
+func main() {
 	// counter := 1
 
 	// for counter <= 10 {
@@ -11,21 +11,22 @@ func forlop() {
 	// }
 
 	// For dengan statement
-	for counter := 1; counter <= 10; counter++ {
-		fmt.Println("Perulangan ke ", counter)
+	for i := 1; i <= 10; i++ {
+		fmt.Println("Perulanga ke = ", i)
 	}
 
 	// For range
 
 	slice := []string{"Fajar", "Nugraha", "Galantixa"}
-	
+
 	for i := 0; i < len(slice); i++ {
-		fmt.Println(slice[i])
+		fmt.Println(slice[i], "Namanya")
 	}
 
 	// Cara cepatnya FOR range
 	// names := []string{"Fajar", "Nugraha", "Galantixa"}
-	for _, value  := range slice {
+	// jika tidak ingin menggunakan index cukup memakai tanap _
+	for _, value := range slice {
 		// fmt.Println("Index", i , "=", value)
 		fmt.Println(value)
 

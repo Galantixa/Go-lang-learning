@@ -2,20 +2,19 @@ package main
 
 import "fmt"
 
-func sumAll(numbers ...int) int{
+func sumAll(numbers ...int) int {
 	total := 0
 	for _, value := range numbers {
-		total =+ value
-
+		total += value
 	}
 	return total
 }
 
-func main7() {
-	total := sumAll (10, 30, 20, 50, 40, 60)
+func main() {
+	total := sumAll(10, 30, 20, 50)
 	fmt.Println(total)
 
-	slice := []int{10, 20, 30,40}
-	total = sumAll(slice...)
+	numbers := []int{10, 10, 10, 10}
+	total = sumAll(numbers...)
 	fmt.Println(total)
 }

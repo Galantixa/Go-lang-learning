@@ -1,8 +1,8 @@
 package main
 
-
 import "fmt"
-// single line 
+
+// single line
 /**
 multi line
 */
@@ -10,7 +10,6 @@ func sayHai(name string) {
 	fmt.Println("Hallo ", name)
 }
 
-
-func main16(){
+func main() {
 	sayHai("fajar")
 }

@@ -2,14 +2,15 @@ package main
 
 import "fmt"
 
-
 func sayHello() {
-	fmt.Println("Hello World")
+
+	for i := 0; i <= 5; i++ {
+		fmt.Println("Perulangan ke = ", i)
+	}
+
 }
 
-func main1() {
-	for i:= 0; i < 10; i++ {
-		sayHello() 
-	}
-	
-} 
+func main() {
+	sayHello()
+
+}

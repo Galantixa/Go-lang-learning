@@ -7,10 +7,12 @@ func getGoodBye(name string) string {
 
 }
 
-func main8() {
-	sayGoodBye := getGoodBye
+func main() {
+	// function bisa dibuat variable
+	// function sayGoodBye ditampung variable contoh
+	contoh := getGoodBye
 
-	result := sayGoodBye("Fajar")
+	result := contoh("Fajar")
 	fmt.Println(result)
 	// hasilnya sama
 	fmt.Println(getGoodBye("Fajar"))

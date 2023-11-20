@@ -1,12 +1,15 @@
-package main;
+package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-
-func consta () {
+// Tipe data absolute! Namun jika tidak digunakan tidak akan jadi masalah
+func main() {
 	const firstName = "Fajar"
 	const lastName = "Nugraha"
 	const value = 1000
+	const midleNamae = "Galantixa" // ini tidak akan error
 
 	fmt.Println(firstName)
 	fmt.Println(lastName)

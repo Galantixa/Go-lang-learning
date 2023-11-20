@@ -2,7 +2,10 @@ package main
 
 import "fmt"
 
-func brCont() {
+// break untuk menghentikan perulangan
+// continou untuk melanjutkan perulangan
+
+func main() {
 
 	// ! BREAK
 	// for i := 0; i < 10; i ++ {
@@ -14,12 +17,11 @@ func brCont() {
 
 	// ! CONTINUE
 
-	for i := 0; i < 10; i ++ {
+	for i := 0; i < 10; i++ {
 		// fmt.Print("Perulangan ke ", i)
-		if i%2 ==  1 {
+		if i%2 == 1 {
 			continue
 		}
 		fmt.Println("Perulangan ke ", i)
 	}
-
 }

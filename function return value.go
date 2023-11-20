@@ -3,10 +3,11 @@ package main
 import "fmt"
 
 func getHello(name string) string {
-	return "Hello " + name
+	hello := "hello " + name
+	return hello
 }
 
-func main3() {
-	result := getHello("Fajar") 
+func main() {
+	result := getHello("Fajar")
 	fmt.Println(result)
 }

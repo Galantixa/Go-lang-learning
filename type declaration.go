@@ -2,12 +2,13 @@ package main
 
 import "fmt"
 
-func typeDeclar() {
-	type noID string
+func main() {
+	// Membuat alias untuk tipe data
+	type phone string
 	type maried bool
-	var myID noID = "123456789975463"
+	var phoneNumber phone = "08123456788"
 	var status maried = false
 
-	fmt.Println(myID)
+	fmt.Println(phoneNumber)
 	fmt.Println(status)
 }

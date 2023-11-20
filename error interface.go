@@ -7,28 +7,24 @@
 package main
 
 import (
-	
 	"errors"
 	"fmt"
 )
 
-func Pembagian(nilai int, pembagi int) (int,error) {
+func Pembagian(nilai int, pembagi int) (int, error) {
 	if pembagi == 0 {
 		return 0, errors.New("pembagi tidak boleh 0")
-	}else {
+	} else {
 		result := nilai / pembagi
 		return result, nil
 	}
 }
 
-func main20() {
-	hasil, err := Pembagian(100, 5)
+func main() {
+	hasil, err := Pembagian(100, 2)
 	if err == nil {
 		fmt.Print("Hasil ", hasil)
-	}else {
+	} else {
 		fmt.Println("Error", err.Error())
 	}
 }
-
-
-
